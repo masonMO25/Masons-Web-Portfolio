@@ -9,7 +9,7 @@ main{
 }
 
 header {
-    padding: 60px;
+    padding: 10px;
     text-align: center;
     background: #345ad6;
     color: rgb(255, 255, 255);
@@ -17,23 +17,34 @@ header {
 
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-content: stretch;
     padding: 20px;
     background-color: cornflowerblue;
 }
 
-.content {
+#About-Me {
     border: 1px solid rgb(5, 5, 5);
     width: 100%
 }
 
+#Work {
+    border: 1px solid rgb(5, 5, 5);
+    width: 100%
+}
+
+#Resume {
+    border: 1px solid rgb(5, 5, 5);
+    width: 100% 
+}
+
 button {
- text-align: center;
- font-size: large;
- background-color: floralwhite;
- border-radius: 25px;
- height: 50px;
- width: 300px
+text-align: center;
+font-size: large;
+background-color: floralwhite;
+border-radius: 25px;
+height: 75px;
+width: 350px
 }
 
 aside {
@@ -42,12 +53,3 @@ aside {
     border: 1px solid black;
 }
 
-aside h2 {
- font-size: 170%;
- font-weight: bold;
-}
-
-aside p {
-    font-size: large;
-    text-decoration: underline;
-}
