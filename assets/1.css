@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+header {
+    padding: 60px;
+    text-align: center;
+    background: #345ad6;
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: cornflowerblue;
+}
+
+.content {
+    border: 1px solid rgb(5, 5, 5);
+    width: 100%
+}
+
+button {
+ text-align: center;
+ font-size: large;
+ background-color: floralwhite;
+ border-radius: 25px;
+ height: 50px;
+ width: 300px
+}
+
+aside {
+    padding: 20px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+aside h2 {
+ font-size: 170%;
+ font-weight: bold;
+}
+
+aside p {
+    font-size: large;
+    text-decoration: underline;
+}
