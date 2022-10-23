@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background: rgb(243, 215, 191);
 }
 
 main{
@@ -8,11 +9,15 @@ main{
     flex-direction: column;
 }
 
+h1 {
+    background-color: #420f0f;
+}
+
 header {
     padding: 10px;
     text-align: center;
-    background: #345ad6;
-    color: rgb(255, 255, 255);
+    background: #420f0f;
+    color: rgb(247, 244, 244);
 }
 
 nav {
@@ -20,7 +25,15 @@ nav {
     justify-content: space-between;
     align-content: stretch;
     padding: 20px;
-    background-color: #345ad6;
+    background-color: #420f0f;
+}
+
+section {
+display: flex;
+flex-wrap: wrap;
+padding: 10px;
+justify-content: center;
+align-items: center;
 }
 
 #About-Me {
@@ -29,12 +42,16 @@ nav {
 }
 
 #Work {
-    border: 1px solid rgb(5, 5, 5);
+    display: flex;
+    align-content: center;
+    text-align: center;
     width: 100%
 }
 
 #Resume {
     border: 1px solid rgb(5, 5, 5);
+    display: flex;
+    flex-direction: column;
     width: 100% 
 }
 
@@ -53,3 +70,6 @@ aside {
     border: 1px solid black;
 }
 
+p {
+   text-align: center; 
+}

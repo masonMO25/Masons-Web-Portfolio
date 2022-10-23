@@ -17,10 +17,10 @@
     </header>
     
     <nav>
-        <button type="button" href="#About Me">About Me</button>
-        <button type="button">Work</button>
-        <button type="button">Resume</button>
-        <button type="button">Contact Me</button>
+        <button type="button" onClick="document.getElementById('About-Me').scrollIntoView();"href="#About Me">About Me</button>
+        <button type="button" onClick="document.getElementById('Work').scrollIntoView();">Work</button>
+        <button type="button" onClick="document.getElementById('Resume').scrollIntoView();" >Resume</button>
+        <button type="button" onClick="document.getElementById('Contact-Me').scrollIntoView();">Contact Me</button>
     </nav>
 
     <main>
@@ -38,19 +38,21 @@
         </section>
 
         <section id="Work">
-            <p>Click the pictures below to see my work!</p>
+            <h2>Click the pictures below to see my work!</h2>
             <a href="https://masonmo25.github.io/prework-study-guide/">
             <img src="./assets/images/Coding.png" alt="Coding image" width="100%" height="200px">
             </a>
             <a href="https://masonmo25.github.io/Module-1/">
-                <img src="./assets/images/farmer.jpg" alt="Coding image" width="100%" height="200px">
+                <img src="./assets/images/comp.jpg" alt="Coding image" width="100%" height="200px">
                 </a>
         </section>
-        <section id="Resume"></section>
-            <p>Resume</p>
-            <a href="./assets/directorty/Resume2022.pdf" download="Mason Neale Resume">Download the pdf</a>
 
-        <aside>
+        <section id="Resume">
+            <h2>Resume</h2>
+            <a href="./assets/directorty/Resume2022.pdf" download="Mason Neale Resume">Download the PDF</a>
+        </section>
+
+        <aside id="Contact-Me">
             <h2>Contact Me</h2>
             <p>Email: masonneale@gmail.com</p>
             <p>Phone Number: (573)-310-1642</p>
